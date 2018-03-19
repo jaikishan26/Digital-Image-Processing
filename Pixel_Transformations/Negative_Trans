@@ -1,0 +1,9 @@
+import cv2
+from matplotlib import pyplot as plt
+import numpy as np
+import math
+img=cv2.imread('C:\Python27\Winter Project\Pixel_trans\ele.jpg')
+cv2.imshow("fg",img)
+imagem = cv2.bitwise_not(img)
+cv2.imshow("image",imagem)
+cv2.waitKey(0)
